@@ -22,6 +22,8 @@ I'm a research software engineer working at the intersection of spatial data inf
 
 🌱 **SpatialRust:** Spatially explicit, process-based model of coffee agroforestry systems, coupling shade tree dynamics, plant physiology, and pathogen dispersal. Calibrated using Approximate Bayesian Computation at 1-million-simulation scale. Julia, SLURM. [[Zenodo](https://doi.org/10.5281/zenodo.8237935)] [[Main model repo](https://github.com/manuvanegas/SpatialRustModel)]
 
+🔄 **CoMSES Model Porting Verification:** Statistical quality gate for an automated system that uses LLM coding agents to translate simulation models between programming languages. Determines whether a ported model produces behaviorally equivalent output to the original: combined-group PCA and Maximum Mean Discrepancy (kernel two-sample test) as the global pass/fail gate, MANOVA for attribution, and Mann-Whitney with BH-FDR correction for per-timestep localization. Output is two-tiered by design to prevent the porting agent from gaming the verifier. Python (NumPy, SciPy, statsmodels, Pydantic v2, pytest).
+
 **Writing**
 
 📦 **Containerization for Computational Models:** Peer-reviewed methods article introducing Docker and containerization practices to the socio-environmental systems modeling community, accompanied by tutorial materials and GitHub Classroom workflows for researchers learning to containerize their own models. [[Article](https://doi.org/10.18174/sesmo.18074)]

@@ -6,7 +6,8 @@ I build software for geospatial, climate, and environmental data, from data pipe
 - Full stack web applications: Django REST Framework, FastAPI, PostgreSQL, Redis, Angular, Vue/Nuxt
 - Raster and map services: async analysis APIs, windowed reads and zonal statistics, TiTiler, MapLibre GL JS
 - Geospatial data pipelines: COG, STAC, GeoParquet, NetCDF, rasterio, GDAL, GeoPandas, PostGIS, xarray, xESMF
-- Scientific computing: SLURM, Dask, process-based simulation, Bayesian calibration, statistical verification
+- HPC workflows: SLURM, Dask, parallelized simulation pipelines
+- Process-based ecological and biological models: Agent-Based Modeling (ABM), Ordinary Differential Equation (ODE) Modeling, Bayesian Modeling, Approximate Bayesian Computation, Genetic Algorithm optimization
 - LLM extraction systems: hybrid retrieval, structured output, source-grounded answers, evaluation
 
 **Selected projects**
@@ -23,7 +24,7 @@ I build software for geospatial, climate, and environmental data, from data pipe
 
 🔄 **CoMSES Model Porting Verification:** Statistical quality gate for a system that uses LLM coding agents to translate simulation models between programming languages. Tests whether a ported model behaves equivalently to the original, using PCA and Maximum Mean Discrepancy as the global gate, with MANOVA and corrected per-timestep tests to locate differences. The output shown to the porting agent is stripped of test internals so that the agent cannot game the verifier. Python, SciPy, statsmodels, Pydantic, pytest.
 
-🌱 **SpatialRust:** Process-based, spatially explicit stochastic simulation of coffee agroforestry farms, coupling shade tree dynamics, plant physiology, and pathogen dispersal to study how management and farm layout shape disease and revenue. Calibrated with Approximate Bayesian Computation over one million parameter sets on HPC, and optimized with a custom parallel genetic algorithm. Julia, SLURM. [[Zenodo](https://doi.org/10.5281/zenodo.8237935)] [[Main model repo](https://github.com/manuvanegas/SpatialRustModel)]
+🌱 **SpatialRust:** Process-based, spatially explicit stochastic simulation (Agent-Based Model) of coffee agroforestry farms, coupling shade tree dynamics, plant physiology, and pathogen dispersal to study how management and farm layout shape disease and revenue. Calibrated with Approximate Bayesian Computation over one million parameter sets on HPC, and optimized with a custom parallel genetic algorithm. Julia, SLURM. [[Zenodo](https://doi.org/10.5281/zenodo.8237935)] [[Main model repo](https://github.com/manuvanegas/SpatialRustModel)]
 
 **Writing**
 
